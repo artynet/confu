@@ -161,6 +161,7 @@ def validate_module_name(name):
 
 
 platform_alternatives = {
+    "x86-linux-gnu": ["x86-linux"],
     "x86_64-linux-gnu": ["x86_64-linux"],
     "x86_64-linux-gnux32": ["x32", "linux-x32"],
     "ppc64le-linux-gnu": ["ppc64le-linux"],
